@@ -1,0 +1,52 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+>>> text_indentation("Hello. My name is John? I am learning Python: It is fun.")
+Hello.
+<BLANKLINE>
+My name is John?
+<BLANKLINE>
+I am learning Python:
+<BLANKLINE>
+It is fun.
+<BLANKLINE>
+
+>>> text_indentation("No special characters here")
+No special characters here
+
+>>> text_indentation("A test: with multiple: colons:")
+A test:
+<BLANKLINE>
+with multiple:
+<BLANKLINE>
+colons:
+<BLANKLINE>
+
+>>> text_indentation("  Spaces before and after?  ")
+Spaces before and after?
+<BLANKLINE>
+
+>>> text_indentation(123)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation("Mix of punctuation. Here? And: There.")
+Mix of punctuation.
+<BLANKLINE>
+Here?
+<BLANKLINE>
+And:
+<BLANKLINE>
+There.
+<BLANKLINE>
+
+>>> text_indentation("")
+
+>>> text_indentation("No punctuation to process")
+No punctuation to process
+
+>>> text_indentation("Ending with punctuation:")
+Ending with punctuation:
+<BLANKLINE>
+
+>>> text_indentation("Multiple   spaces  should be trimmed.")
+Multiple   spaces  should be trimmed.
+<BLANKLINE>
