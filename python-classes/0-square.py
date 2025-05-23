@@ -8,6 +8,6 @@ class Square:
     """
     This class represents a geometric square.
 
-    For the moment it's a placeholder: it doesn't have any properties nor methods.
+    For the moment it's a placeholder, it doesn't have properties nor methods.
     """
     pass
