@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that defines a class: BaseGeometry"""
+"""Module that defines a class BaseGeometry"""
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
